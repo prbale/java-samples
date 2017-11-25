@@ -5,10 +5,10 @@ List any dependencies that are required for this change.
 
 #JIRA Ticket: 
 
-Please delete options that are not relevant.
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Breaking change
+## Type of change
+- [ ] Hot fix  ( Very urgent fix and critical fix )
+- [ ] Bug fix  (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which fixes an issue)
 - [ ] This change requires a documentation update
 
 # How Has This Been Tested?
