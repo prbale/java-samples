@@ -1,3 +1,5 @@
 # Some useful java samples
 
-Some useful java coding guidelines
+TODO: 
+1) Java coding guidelines
+2) ...
