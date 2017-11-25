@@ -29,3 +29,6 @@ Provide instructions so we can reproduce. Please also list any relevant details 
 
 # Impacted Areas in Application
 List general components of the application that this PR will affect
+
+# Screenshots ( If Appropriate )
+Provide some screenshots to help the reviewer to understand the component/area on which you are working.
