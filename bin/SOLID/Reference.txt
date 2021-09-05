@@ -1,0 +1,7 @@
+
+Nice Article on Cohesion
+	http://www.codemag.com/article/1001061
+	
+	
+SOLID:
+	https://medium.com/android-news/android-development-the-solid-principles-3b5779b105d2#.apah9y8pw
