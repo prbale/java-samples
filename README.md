@@ -14,13 +14,25 @@
 + Generics
 + List
 + List Collection
-- ArrayList
-- HastSet
-- LinkedList
-- PriorityQueue
+  - ArrayList
+  - HastSet
+  - LinkedList
+  - PriorityQueue
 + Set
 3. Design Patterns
-4. Interview Programs
-5. Multithreading
-6. SOLID principles
-7. TRICKY QUESTIONS
++ Behavioral
+  - Command Pattern
+  - Observer Pattern
+  - State Design Pattern
++ Creational
+  - Builder Pattern
+  - Factory Pattern
+  - Prototype Pattern
+  - Singleton Pattern
++ Structural
+  - Adapter Pattern
+  - Proxy Pattern
+5. Interview Programs
+7. Multithreading
+8. SOLID principles
+9. TRICKY QUESTIONS
