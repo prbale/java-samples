@@ -8,9 +8,9 @@
 + Comparable
 + Comparator
 + Custom Collections
-- Array List
-- Hash Map
-- Hast Set
+  - Array List
+  - Hash Map
+  - Hast Set
 + Generics
 + List
 + List Collection
