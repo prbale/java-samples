@@ -15,5 +15,9 @@ public class StatePatternDemo {
         stateContext.alert();
         stateContext.alert();
         stateContext.alert();
+        stateContext.setState(new RingingVibration());
+        stateContext.alert();
+        stateContext.alert();
+        stateContext.alert();
     }
 }

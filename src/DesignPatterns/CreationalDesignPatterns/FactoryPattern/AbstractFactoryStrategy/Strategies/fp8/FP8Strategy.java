@@ -1,6 +1,6 @@
 package DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Strategies.fp8;
 
-import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.AuthStrategy;
+import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Strategies.AuthStrategy;
 import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Country;
 import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Strategy;
 
@@ -14,7 +14,5 @@ public class FP8Strategy extends AuthStrategy {
     }
 
     @Override
-    protected void construct() {
-
-    }
+    protected void construct() { }
 }

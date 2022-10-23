@@ -1,7 +1,5 @@
 package DesignPatterns.CreationalDesignPatterns.SingletonPattern.StaticBlockInitialization;
 
-import DesignPatterns.CreationalDesignPatterns.SingletonPattern.EagerInitialization.EagerInitializedSingleton;
-
 public class MainClass {
 	
     public static void main(String[] args) {
@@ -13,5 +11,9 @@ public class MainClass {
     	instance1.displayMessage();
     	instance2.displayMessage();
     	instance3.displayMessage();
+
+    	System.out.println("Printing Instance 1 " + instance1);
+		System.out.println("Printing Instance 2 " + instance2);
+		System.out.println("Printing Instance 3 " + instance3);
     }
 }

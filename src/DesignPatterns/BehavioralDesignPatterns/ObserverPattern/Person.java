@@ -2,10 +2,15 @@ package DesignPatterns.BehavioralDesignPatterns.ObserverPattern;
 
 public class Person implements Observer {
 
+	private String name = "";
+
+	public Person(String name) {
+		this.name = name;
+	}
+
 	@Override
 	public void receiveData(String data) {
-		// TODO Auto-generated method stub
-		System.out.println("Person : Data Received : " + data);
+		System.out.println("Hello Mr. " + this.name + ", You have a message: " + data);
 	}
 
 }
