@@ -33,6 +33,8 @@
   - Adapter Pattern
   - Proxy Pattern
 5. Interview Programs
+6. Java8Features
+  - StreamApi
 7. Multithreading
 8. SOLID principles
 9. TRICKY QUESTIONS
