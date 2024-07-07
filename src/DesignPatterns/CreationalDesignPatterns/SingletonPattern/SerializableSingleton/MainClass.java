@@ -1,13 +1,6 @@
 package DesignPatterns.CreationalDesignPatterns.SingletonPattern.SerializableSingleton;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInput;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutput;
-import java.io.ObjectOutputStream;
+import java.io.*;
 
 public class MainClass {
 	
@@ -43,6 +36,6 @@ public class MainClass {
 		in1.close();
 
 		System.out.println("\nSerializableSingletonGood instanceOne hashCode = "+instance3.hashCode());
-		System.out.println("SerializableSingletonGood instanceTwo hashCode = "+instance3.hashCode());
+		System.out.println("SerializableSingletonGood instanceTwo hashCode = "+instance4.hashCode());
     }
 }

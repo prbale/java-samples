@@ -1,34 +1,21 @@
 package InterviewPrograms;
 
-/**
- * Created by Prashant on 01-10-2016.
- */
+import java.util.Scanner;
+import java.util.Stack;
 
-class A {
-    public static void test() {
-        System.out.println("testing... A !");
-    }
+
+interface A {
+    void add();
 }
 
-class B extends A {
-    public static void test() {
-        System.out.println("testing... B !");
-    }
+interface B {
+    void add();
 }
 
-public class Test1 {
+class test implements A, B {
 
-    public static void main(String[] args) {
-        A a = new A();
-        B b = new B();
-
-        a.test();
-        b.test();
-
-        b = (B)a;
-        b.test();
-
+    @Override
+    public void add() {
 
     }
-
 }

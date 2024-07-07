@@ -1,6 +1,6 @@
 package DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Strategies.IDnV;
 
-import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.AuthStrategy;
+import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Strategies.AuthStrategy;
 import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Country;
 import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Strategy;
 
@@ -15,6 +15,5 @@ public class IDnVStrategy extends AuthStrategy {
 
     @Override
     protected void construct() {
-
     }
 }

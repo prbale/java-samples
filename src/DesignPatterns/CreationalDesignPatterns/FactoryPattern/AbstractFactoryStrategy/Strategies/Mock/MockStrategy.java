@@ -1,6 +1,6 @@
 package DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Strategies.Mock;
 
-import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.AuthStrategy;
+import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Strategies.AuthStrategy;
 import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Country;
 import DesignPatterns.CreationalDesignPatterns.FactoryPattern.AbstractFactoryStrategy.Strategy;
 
@@ -14,6 +14,5 @@ public class MockStrategy extends AuthStrategy {
 
     @Override
     protected void construct() {
-
     }
 }

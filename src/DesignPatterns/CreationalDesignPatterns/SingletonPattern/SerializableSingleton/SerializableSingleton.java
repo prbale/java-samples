@@ -24,7 +24,6 @@ class SerializableSingletonBad implements Serializable {
     }
 }
 
-
 class SerializableSingletonGood implements Serializable {
 
     private static final long serialVersionID = -7604766932017737115L;
@@ -43,8 +42,9 @@ class SerializableSingletonGood implements Serializable {
         System.out.println("Hello Prashant !");
     }
 
-    // To avoid serialization to break the Singleton policy, we need to add below method
-    // which will return the same instance.
+    // --- IMPORTANT ----
+    // To avoid serialization to break the Singleton policy,
+    // we need to add below method which will return the same instance.
     protected Object readResolve() {
         return getInstance();
     }

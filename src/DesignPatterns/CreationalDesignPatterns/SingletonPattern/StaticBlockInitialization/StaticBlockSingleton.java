@@ -3,14 +3,16 @@ package DesignPatterns.CreationalDesignPatterns.SingletonPattern.StaticBlockInit
 /**
  * Static block initialization is similar to eager initialization, except that instance of class is created
  * in the static block that provides option for exception handling.
- * Not a best practice.
- * Thread safe
+ * - Eager initialization
+ * - Not a best practice.
+ * - Thread safe
  * @author Prashant
  */
 public class StaticBlockSingleton {
 
     private static StaticBlockSingleton instance;
 
+    // Private Constructor
     private StaticBlockSingleton() {}
 
     static {
@@ -18,7 +20,9 @@ public class StaticBlockSingleton {
             instance = new StaticBlockSingleton();
         }
         catch (Exception e) {
-            throw new RuntimeException("Exception occurred in creating singleton instance");
+            throw new RuntimeException(
+                    "Exception occurred in creating singleton instance"
+            );
         }
     }
 

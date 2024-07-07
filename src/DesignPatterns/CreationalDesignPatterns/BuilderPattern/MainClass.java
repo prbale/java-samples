@@ -12,16 +12,22 @@ public class MainClass {
     					.setSecondButtonText("Not Good")
     					.Build();
     	
-    	dialog.show();
+    	//dialog.show();
     	
-    	System.out.println("---------------------------------------");
+    	//System.out.println("---------------------------------------");
 
     	AlertDialog dialog2 = new AlertDialog.Builder()
 				.setTitle("Hello")
 				.setSubTitle("Prashant Bale")
 				.Build();
 
-    	dialog2.show();
-    
+    	//dialog2.show();
+
+    	PersonInfo person = new PersonInfo.Builder()
+				.setName("Prashant")
+				.setNationality("Indian")
+				.build();
+
+    	person.display();
     }
 }
