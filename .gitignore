@@ -1,0 +1,8 @@
+# Ignore all bin directories
+**/bin/
+
+# Other ignore rules
+*.log
+*.tmp
+.idea/
+*.iml
